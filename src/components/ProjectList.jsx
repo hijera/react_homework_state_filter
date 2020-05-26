@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../css/main.css'
+
 ProjectList.propTypes = {
     projects: PropTypes.arrayOf(PropTypes.shape({
         img:PropTypes.string.isRequired,

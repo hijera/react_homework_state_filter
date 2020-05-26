@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import PropTypes from 'prop-types';
 import Toolbar from "./Toolbar";
 import ProjectList from "./ProjectList";
+
 Portfolio.propTypes = {
     
 };
