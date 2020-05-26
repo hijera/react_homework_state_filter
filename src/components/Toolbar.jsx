@@ -11,7 +11,6 @@ function Toolbar(props) {
     const {filters,selected,onSelectFilter}=props;
 
     const onFilter = evt =>{
-        console.log(evt.target);
         onSelectFilter(evt.target.value);
     };
     return (
