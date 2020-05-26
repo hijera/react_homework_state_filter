@@ -13,15 +13,15 @@
 
 .project {
 
-    flex: 0 0 calc(100%/3);
+ /*   flex: 0 0 calc(100%/3);*/
     display:inline-block;
-    width:33.33%;
-
+    width:30.33%;
+    padding:10px;
 }
 
 .project-list img
 {
-
+    width: 100%;
 }
 .project img
 {
@@ -39,10 +39,6 @@
 {
     margin:0 auto;
     width:70%;
-}
-
-.buttons
-{
 }
 
 .filter-button

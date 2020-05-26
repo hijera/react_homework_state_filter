@@ -2,7 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 Toolbar.propTypes = {
-    
+    onSelectFilter: PropTypes.func.isRequired,
+    filters: PropTypes.arrayOf(PropTypes.string).isRequired,
+    selected: PropTypes.string
 };
 
 function Toolbar(props) {
@@ -10,7 +12,6 @@ function Toolbar(props) {
 
     const onFilter = evt =>{
         console.log(evt.target);
-//        this.onSelectFilter(ev)
         onSelectFilter(evt.target.value);
     };
     return (
